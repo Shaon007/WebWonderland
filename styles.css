@@ -26,7 +26,8 @@ body {
   padding: 0;
 
 }
-.header-left h2{
+
+.header-left h2 {
   padding: 0;
   margin-top: 50px;
   margin-left: 150px;
@@ -46,5 +47,128 @@ body {
   border: 1px solid #0D1321;
   opacity: 0.8;
 }
+
 /* hero section */
 
+.hero-container {
+  border: 2px solid red;
+
+  width: 1440px;
+  height: 652px;
+  margin: 0 auto;
+  background-image: url(assets/Hero-bg.png);
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-image {
+  border: 2px solid;
+  width: 998px;
+  height: 272px;
+  margin: 26px auto 0;
+  text-align: center;
+
+}
+
+.hero-image img {
+  height: 241px;
+}
+
+.hero-mid {
+  border: 2px solid;
+  width: 998px;
+  height: 136px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero-mid h4 {
+  color: #0D1321;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.hero-bottom {
+  border: 2px solid;
+  width: 998px;
+  height: 76px;
+  margin: 0 auto;
+}
+
+.hero-bottom h5 {
+  color: #0D1321;
+
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.hero-button {
+  padding: 0;
+  border: 2px solid;
+  width: 998px;
+  height: 96px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero-button button {
+  color: #FFF;
+  font-family: "Azeret Mono";
+  font-size: 20px;
+  height: 65px;
+  width: 244px;
+  margin: 32px 377px 0;
+  border-radius: 8px;
+  background: #0D1321;
+
+}
+
+.hero-btn {
+  padding: 0;
+}
+
+/* Developer section begins */
+.dev-container {
+  border: 2px solid;
+  width: 1140px;
+  height: 1393px;
+  margin: 74px auto 90px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+}
+
+.dev-head {
+  border: 2px solid salmon;
+    width: 852px;
+    height: 113px;
+    margin: 80px auto 48px;
+    text-align: center;
+}
+
+.dev-top {
+  border: 2px solid green;
+    width: 946px;
+    height: 336px;
+    margin: 0 auto 32px;
+}
+
+.dev-mid {
+  border: 2px solid red;
+  width: 946px;
+  height: 336px;
+  margin: 0 auto 32px;
+}
+ .dev-bottom {
+   border: 2px solid blue;
+   width: 946px;
+   height: 336px;
+   margin: 0 auto 80px;
+ }
