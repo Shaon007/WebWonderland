@@ -198,13 +198,14 @@ body {
   margin-bottom: 58px;
 }
 
- .top-left {
+.top-left {
   border: 2px solid;
   width: 477px;
   height: 230px;
   margin: 48px 0 48px 48px;
 }
-.top-left h3{
+
+.top-left h3 {
   margin-bottom: 3px;
 }
 
@@ -252,11 +253,68 @@ body {
   justify-content: space-between;
 }
 
-.bottom-left h3{
+.bottom-left h3 {
   /* margin-bottom: 5px; */
   padding-bottom: 5px;
 }
-.bottom-left button{
+
+.bottom-left button {
   margin-top: 6px;
 
+}
+
+/* inspire section begins */
+.insp-container {
+  border: 2px solid blue;
+  height: 775px;
+  width: 1140px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 151px;
+}
+
+.insp-top {
+  border: 2px solid red;
+  height: 161px;
+  width: 852px;
+  margin: 0 auto
+}
+
+.insp-top h3 {
+  color: #0D1321;
+
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.insp-top p {
+  color: #0D1321;
+  opacity: 0.7;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.insp-bottom {
+  height: 614px;
+  width: 1140px;
+  margin: 0 auto;
+  border-radius: 16px;
+  border: 1px solid rgba(13, 19, 33, 0.20);
+}
+
+.vid iframe {
+  padding: 32px;
+  /* border-radius: 16px; */
+
+}
+iframe {
+  border-radius: 45px !important;
 }
