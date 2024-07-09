@@ -3,6 +3,7 @@
 body {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 /* header section style */
@@ -317,4 +318,119 @@ body {
 }
 iframe {
   border-radius: 45px !important;
+}
+
+/* Current Goal Section */
+.goal-container{
+  border: 2px solid;
+  height: 460px;
+  width: 1140px;
+  margin: 0 auto 111px;
+
+}
+.goal-top{
+    border: 2px solid red;
+      height: 113px;
+      width: 852px;
+      margin: 0 auto;
+}
+.goal-top h3{
+  color: #0D1321;
+  margin: 0;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.goal-top h4{
+  margin-top: 24px;
+  color: #0D1321;
+
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.goal-down{
+    border: 2px solid blue;
+      height: 299px;
+      width: 1140px;
+      margin: 44px auto 0;
+      display: flex;
+      gap: 24px;
+}
+.goal-down img{
+  width: 56px;
+}
+.down-left{
+  border: 2px solid green;
+  padding: 20px;
+    height: 299px;
+    width: 364px;
+    margin: 0 ;
+    border-radius: 16px;
+      background: rgba(255, 76, 30, 0.05);
+      box-sizing: border-box;
+}
+.down-mid{
+  border: 2px solid salmon;
+  padding: 20px;
+    height: 299px;
+    width: 364px;
+    margin: 0;
+    border-radius: 16px;
+      background: rgba(0, 76, 232, 0.05);
+      box-sizing: border-box;
+}
+.down-right{
+  border: 2px solid green;
+  padding: 20px;
+    height: 299px;
+    width: 364px;
+    margin: 0;
+    border-radius: 16px;
+      background: rgba(255, 223, 0, 0.05);
+      box-sizing: border-box;
+}
+.goal-down h3{
+  color: #0D1321;
+   margin-bottom: 10px;
+   padding: 0;
+    font-family: "Azeret Mono";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 36px;
+}
+.goal-down h4{
+  color: #0D1321;
+    margin: 0 auto 5px;
+    padding:0;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.goal-down a{
+  color: #0D1321;
+    margin: 0;
+    padding: 0;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+/* future goal  */
+.fgoal-container{
+   border: 2px solid ;
+   height: 866px;
+   width: 1140px;
+   margin: 0 auto 49px;
 }
