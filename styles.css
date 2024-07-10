@@ -316,121 +316,249 @@ body {
   /* border-radius: 16px; */
 
 }
+
 iframe {
   border-radius: 45px !important;
 }
 
 /* Current Goal Section */
-.goal-container{
+.goal-container {
   border: 2px solid;
   height: 460px;
   width: 1140px;
   margin: 0 auto 111px;
 
 }
-.goal-top{
-    border: 2px solid red;
-      height: 113px;
-      width: 852px;
-      margin: 0 auto;
+
+.goal-top {
+  border: 2px solid red;
+  height: 113px;
+  width: 852px;
+  margin: 0 auto;
 }
-.goal-top h3{
+
+.goal-top h3 {
   color: #0D1321;
   margin: 0;
-    text-align: center;
-    font-family: "Azeret Mono";
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
 }
-.goal-top h4{
+
+.goal-top h4 {
   margin-top: 24px;
   color: #0D1321;
 
-    text-align: center;
-    font-family: "Azeret Mono";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
 }
-.goal-down{
-    border: 2px solid blue;
-      height: 299px;
-      width: 1140px;
-      margin: 44px auto 0;
-      display: flex;
-      gap: 24px;
+
+.goal-down {
+  border: 2px solid blue;
+  height: 299px;
+  width: 1140px;
+  margin: 44px auto 0;
+  display: flex;
+  gap: 24px;
 }
-.goal-down img{
+
+.goal-down img {
   width: 56px;
 }
-.down-left{
+
+.down-left {
   border: 2px solid green;
   padding: 20px;
-    height: 299px;
-    width: 364px;
-    margin: 0 ;
-    border-radius: 16px;
-      background: rgba(255, 76, 30, 0.05);
-      box-sizing: border-box;
+  height: 299px;
+  width: 364px;
+  margin: 0;
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+  box-sizing: border-box;
 }
-.down-mid{
+
+.down-mid {
   border: 2px solid salmon;
   padding: 20px;
-    height: 299px;
-    width: 364px;
-    margin: 0;
-    border-radius: 16px;
-      background: rgba(0, 76, 232, 0.05);
-      box-sizing: border-box;
+  height: 299px;
+  width: 364px;
+  margin: 0;
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+  box-sizing: border-box;
 }
-.down-right{
+
+.down-right {
   border: 2px solid green;
   padding: 20px;
-    height: 299px;
-    width: 364px;
-    margin: 0;
-    border-radius: 16px;
-      background: rgba(255, 223, 0, 0.05);
-      box-sizing: border-box;
+  height: 299px;
+  width: 364px;
+  margin: 0;
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+  box-sizing: border-box;
 }
-.goal-down h3{
+
+.goal-down h3 {
   color: #0D1321;
-   margin-bottom: 10px;
-   padding: 0;
-    font-family: "Azeret Mono";
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 36px;
+  margin-bottom: 10px;
+  padding: 0;
+  font-family: "Azeret Mono";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 36px;
 }
-.goal-down h4{
+
+.goal-down h4 {
   color: #0D1321;
-    margin: 0 auto 5px;
-    padding:0;
+  margin: 0 auto 5px;
+  padding: 0;
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.goal-down a {
+  color: #0D1321;
+  margin: 0;
+  padding: 0;
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+/* future goal  */
+.fgoal-container {
+  border: 2px solid;
+  height: 866px;
+  width: 1140px;
+  margin: 0 auto 49px;
+}
+
+/* Support section */
+.support-container {
+  border: 2px solid;
+  height: 313px;
+  width: 1140px;
+  margin: 0 auto 80px;
+  /* background-image: url(assets/handshake.jpg); */
+  background-size: auto;
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(assets/handshake.jpg) lightgray 50% / cover no-repeat;
+}
+
+.support-content {
+  border: 2px solid red;
+  height: 185px;
+  width: 1044px;
+  margin: 64px 48px;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-head {
+
+  border: 2px solid brown;
+  height: 36px;
+  width: 350px;
+  margin: 0 auto 12px;
+}
+
+.content-head h3 {
+  color: #FFF;
+  padding: 0;
+  margin: 0;
+  /* text-align: center; */
+  font-family: "Azeret Mono";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.content-body p {
+  color: #FFF;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.7;
+}
+
+.content-body {
+  border: 2px solid brown;
+  height: 52px;
+  width: 606px;
+  margin: 0 auto 20px;
+
+}
+
+.content-sub {
+  border: 2px solid green;
+  width: 750px;
+  margin: 0 auto;
+  justify-content: space-around;
+  display: flex;
+}
+
+.inpt {
+  width: 548px;
+  height: 55px;
+  /* gap: 10px; */
+  background: #FFF;
+  /* align-items: center; */
+  border-radius: 8px;
+  color: rgba(13, 19, 33, 0.40);
+  padding: 1px 20px;
     font-family: "Azeret Mono";
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 26px;
-}
-.goal-down a{
-  color: #0D1321;
-    margin: 0;
-    padding: 0;
-    font-family: "Azeret Mono";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
     line-height: normal;
-    text-decoration-line: underline;
+    margin-right: 16px;
 }
-/* future goal  */
-.fgoal-container{
-   border: 2px solid ;
-   height: 866px;
-   width: 1140px;
-   margin: 0 auto 49px;
+.submit{
+  height: 60px;
+  width: 160px;
+  color: #0D1321;
+  margin: 0;
+  padding: 17px 20px;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 8px;
+}
+/* Footer Section */
+
+.footer-container{
+  border: 2px solid;
+  height: 100px;
+  width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-left{
+
 }
