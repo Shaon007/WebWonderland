@@ -202,13 +202,15 @@ body {
 .dev-head {
   /* border: 2px solid salmon; */
   width: 852px;
-  height: 113px;
-  margin: 80px auto 48px;
+  height: 128px;
+  margin: 90px auto 48px;
   text-align: center;
+  padding-top: 5px;
 }
 
 .dev-head h4 {
-  margin: 0;
+  /* border: 2px solid; */
+  margin-top: 10px;
   color: #0D1321;
   font-family: "Azeret Mono";
   font-size: 32px;
@@ -218,7 +220,8 @@ body {
 }
 
 .dev-head h5 {
-  margin-top: 20px;
+  /* margin-top: px; */
+  padding: 0;
   color: #0D1321;
   font-family: "Azeret Mono";
   font-size: 16px;
@@ -265,8 +268,7 @@ body {
 
 .dev-mid {
   border-radius: 16px;
-  background: linear-gradient(90deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
-  /* border: 2px solid red; */
+  background: linear-gradient(270deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
   width: 946px;
   height: 336px;
   margin: 0 auto 32px;
